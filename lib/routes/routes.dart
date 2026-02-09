@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
 
 import '../constants/route_constants.dart';
-import '../screens/landing/landing.screen.dart';
+import '../features/landing/presentation/screens/landing.screen.dart';
 
 final router = GoRouter(
   routes: [
