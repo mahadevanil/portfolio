@@ -8,7 +8,7 @@ class KStyles {
 //!-----------(light)--------------
   Text light(
       {required String text,
-      Color color = AppColors.white,
+      Color color = AppColors.kTextColor,
       double? height,
       bool? softWrap,
       required double size,
@@ -34,7 +34,7 @@ class KStyles {
 //!------------(reg)--------------
   Text reg(
       {required String text,
-      Color color = AppColors.white,
+      Color color = AppColors.kTextColor,
       double? height,
       bool? softWrap,
       required double size,
@@ -60,7 +60,7 @@ class KStyles {
 //!-------------(med)-------------------
   Text med(
       {required String text,
-      Color color = AppColors.white,
+      Color color = AppColors.kTextColor,
       double? height,
       bool? softWrap,
       required double size,
@@ -86,7 +86,7 @@ class KStyles {
 //!-------------(semibold)------------
   Text semiBold(
       {required String text,
-      Color color = AppColors.white,
+      Color color = AppColors.kTextColor,
       double? height,
       bool? softWrap,
       required double size,
@@ -112,7 +112,7 @@ class KStyles {
 //!-------------(bold)------------------
   Text bold(
       {required String text,
-      Color color = AppColors.white,
+      Color color = AppColors.kTextColor,
       double? height,
       bool? softWrap,
       required double size,
@@ -138,7 +138,7 @@ class KStyles {
 //!---------------(black)-------------------------
   Text black(
       {required String text,
-      Color color = AppColors.white,
+      Color color = AppColors.kTextColor,
       double? height,
       bool? softWrap,
       required double size,
